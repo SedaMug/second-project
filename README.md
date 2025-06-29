@@ -1,4 +1,3 @@
-[8:35 PM, 6/29/2025] Seda: * start of index.html *
 
 
 <!DOCTYPE html>
