@@ -6,7 +6,112 @@
   <head>
     <meta charset="UTF-8">
     <title id="title">Biography Of Prophet Muhammed </title>
-    <link rel="stylesheet" href="styles.css"/>
+    <style>
+
+*{
+  font-family: Arial, Georgia, serif;
+}
+
+img:not(#book-picture){
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  min-width:450px;
+  max-height: 500px;
+  transform: rotate(-0.6deg); 
+}
+
+#image-container{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+#image{
+  width: 200px;
+  height: auto;
+  max-width: 100%;
+  display: block; 
+}
+
+span{
+  font-weight: bold;
+}
+
+#description{
+  font-weight: bold;
+}
+
+a{
+  color: rgb(209, 179, 7);  
+  text-decoration: none;
+} 
+
+a:hover{
+  color: rgb(247, 231, 144);
+  cursor: pointer;
+}
+
+.character{
+  padding-bottom: 0;
+  width: 1000px;
+  line-height: 15px;
+}
+
+.character-1{
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+  width: 1000px;
+  line-height: 15px;
+  text-align: left;
+  font-style: italic;
+  justify-content: start;
+}
+
+.centered{
+  text-align: center;
+}
+
+.character-head{
+  margin-top: 57px;
+  text-align: center;
+  color: rgb(100, 156, 108);
+  font-family: Arial;
+}
+
+.character-head-1{
+  margin-top: 15px;
+  text-align: center;
+}
+
+#book-picture{
+  display: block;
+  margin-top: 17px;
+  width: 200px;
+  height: 250px;
+  max-width: 100%;
+}
+
+.character-head-3{
+  text-align: left;
+}
+
+#start-color{
+  color: grey;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-right: 735px;
+}
+
+.legendary{
+  margin-bottom: 5px;
+}
+
+.best{
+  margin-bottom: 5px;
+}
+
+    </style>
   </head>
   <body>
     <main id="main">
