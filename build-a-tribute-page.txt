@@ -1,4 +1,4 @@
-** start of index.html **
+[8:35 PM, 6/29/2025] Seda: * start of index.html *
 
 
 <!DOCTYPE html>
@@ -6,112 +6,7 @@
   <head>
     <meta charset="UTF-8">
     <title id="title">Biography Of Prophet Muhammed </title>
-    <style>
-
-*{
-  font-family: Arial, Georgia, serif;
-}
-
-img:not(#book-picture){
-  display: block;
-  margin: auto;
-  max-width: 100%;
-  min-width:450px;
-  max-height: 500px;
-  transform: rotate(-0.6deg); 
-}
-
-#image-container{
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-}
-
-#image{
-  width: 200px;
-  height: auto;
-  max-width: 100%;
-  display: block; 
-}
-
-span{
-  font-weight: bold;
-}
-
-#description{
-  font-weight: bold;
-}
-
-a{
-  color: rgb(209, 179, 7);  
-  text-decoration: none;
-} 
-
-a:hover{
-  color: rgb(247, 231, 144);
-  cursor: pointer;
-}
-
-.character{
-  padding-bottom: 0;
-  width: 1000px;
-  line-height: 15px;
-}
-
-.character-1{
-  margin-bottom: 1px;
-  padding-bottom: 1px;
-  width: 1000px;
-  line-height: 15px;
-  text-align: left;
-  font-style: italic;
-  justify-content: start;
-}
-
-.centered{
-  text-align: center;
-}
-
-.character-head{
-  margin-top: 57px;
-  text-align: center;
-  color: rgb(100, 156, 108);
-  font-family: Arial;
-}
-
-.character-head-1{
-  margin-top: 15px;
-  text-align: center;
-}
-
-#book-picture{
-  display: block;
-  margin-top: 17px;
-  width: 200px;
-  height: 250px;
-  max-width: 100%;
-}
-
-.character-head-3{
-  text-align: left;
-}
-
-#start-color{
-  color: grey;
-  margin-top: 7px;
-  margin-bottom: 7px;
-  margin-right: 735px;
-}
-
-.legendary{
-  margin-bottom: 5px;
-}
-
-.best{
-  margin-bottom: 5px;
-}
-
-    </style>
+    <link rel="stylesheet" href="styles.css"/>
   </head>
   <body>
     <main id="main">
@@ -121,184 +16,180 @@ a:hover{
         <div id="image-container">
           <img src="https://i.pinimg.com/736x/13/bf/7c/13bf7cbbbe1ce264f7efa978481dd042.jpg" alt="prophet's icon"  id="image"/>
         </div>
-        <figcaption class="centered character-head-1" class="best" id="img-caption">The best person who has ever steped in the ground was born in 571 y.</figcaption>
+        <figcaption class="centered character-head-1" class="best" id="img-caption">The best person who has ever steped in the ground was born…
+[8:40 PM, 6/29/2025] Seda: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title id="title">Biography Of Prophet Muhammed</title>
+
+    <!-- Встроенный CSS -->
+    <style>
+      * {
+        font-family: Arial, Georgia, serif;
+      }
+
+      img:not(#book-picture) {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        min-width: 450px;
+        max-height: 500px;
+        transform: rotate(-0.6deg); 
+      }
+
+      #image-container {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+      }
+
+      #image {
+        width: 200px;
+        height: auto;
+        max-width: 100%;
+        display: block; 
+      }
+
+      span {
+        font-weight: bold;
+      }
+
+      #description {
+        font-weight: bold;
+      }
+
+      a {
+        color: rgb(209, 179, 7);  
+        text-decoration: none;
+      } 
+
+      a:hover {
+        color: rgb(247, 231, 144);
+        cursor: pointer;
+      }
+
+      .character {
+        padding-bottom: 0;
+        width: 1000px;
+        line-height: 15px;
+      }
+
+      .character-1 {
+        margin-bottom: 1px;
+        padding-bottom: 1px;
+        width: 1000px;
+        line-height: 15px;
+        text-align: left;
+        font-style: italic;
+        justify-content: start;
+      }
+
+      .centered {
+        text-align: center;
+      }
+
+      .character-head {
+        margin-top: 57px;
+        text-align: center;
+        color: rgb(100, 156, 108);
+        font-family: Arial;
+      }
+
+      .character-head-1 {
+        margin-top: 15px;
+        text-align: center;
+      }
+
+      #book-picture {
+        display: block;
+        margin-top: 17px;
+        width: 200px;
+        height: 250px;
+        max-width: 100%;
+      }
+
+      .character-head-3 {
+        text-align: left;
+      }
+
+      #start-color {
+        color: grey;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        margin-right: 735px;
+      }
+
+      .legendary {
+        margin-bottom: 5px;
+      }
+
+      .best {
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main id="main">
+      <div id="img-div"> 
+        <h1 class="centered character-head">Prophet Muhammed ﷺ</h1>  
+        <p class="centered legendary">The legendary man who spread Islam from Arabia to the whole world</p>
+        <div id="image-container">
+          <img src="https://i.pinimg.com/736x/13/bf/7c/13bf7cbbbe1ce264f7efa978481dd042.jpg" alt="prophet's icon" id="image"/>
+        </div>
+        <figcaption class="centered character-head-1 best" id="img-caption">The best person who has ever stepped on the ground was born in 571 y.</figcaption>
       </div> 
+
       <div id="tribute-info"> 
-        <h2 class="centered character-head" >Here is a time line of Prophet Muhammed's ﷺ life</h2>
-          <ul>
-            <li><span>571</span>-the year he was born in.He was born in Makkah,his father AbduLlah died before his birth.</li>
-            <li><span>575</span>-the year he became an orphan.His mom Amina died,and he was raising by his grandfather Abdul Muttalib,and by Abu Talib his uncle.</li>
-            <li><span>582</span>-Traveled to Syria with his uncle,and a Monk there find out that he would be a great prophet</li>
-            <li><span>595</span>-Marriage of Prophet Muhammad ﷺ .He married his employer Khadidja when he was 25 y.o. and she was nearly to 40 y.o.  </li>
-            <li><span>610</span>-First Relevation.Heﷺ  received the first revelation of the Quran in Cave of Hira.</li>
-            <div id="image-container">
-              <img src="https://i.pinimg.com/736x/b8/cc/c0/b8ccc0f3030b7dcd0c76e4522c620655.jpg"  alt="prophet in cave" id="image"/>
-            </div>  
-            <h3 class="centered  character-head" id="start-color">Start of the Prophetic jorney</h3>
-            <li><span>610-613</span>-For three years he ﷺ was spreading Islam privately,and then publicaly in Makkah </li>
-            <li><span>614</span>-He ﷺ commanded Muslims to escape Makka and go to Ethiopia for safety.Because it was dangerouse to stay there because of pagans and idolatrous.</li>
-            <li><span>619</span>-Prophet ﷺ lost his wife Khadidja and uncle Abu Talib.  </li>
-            <li><span>622</span>-Migration to Medina.Prophet ﷺ left Makkah,and travelled to Medina with hundreds of muslims.And it was start of Muslim calendar-Hijra. </li>
-            <li><span>624-627</span>-Fought the most important three wars againts Mekkans:Badr,Uhud and Khandaq.</li>
-            <li><span>630</span>-The Conquest of Makkah.Prophet Muhammad ﷺ led Muslims on a march to Makkah and were joined by tribe after tribe along the way. They entered and conquered Makkah without bloodshed and the Meccans were pardoned by him.</li>
-            <li><span>632</span>-The year when Prophet passed away...He was 63y.o. He performed a pilgrimage to Makkah one last time and then returned to Medina. Three months later, he passed away there after a brief illness. He is buried in the Nabawi mosque in Medina.
+        <h2 class="centered character-head">Here is a time line of Prophet Muhammed's ﷺ life</h2>
+        <ul>
+          <li><span>571</span> – The year he was born in. He was born in Makkah, his father Abdullah died before his birth.</li>
+          <li><span>575</span> – The year he became an orphan. His mom Amina died, and he was raised by his grandfather Abdul Muttalib, then by his uncle Abu Talib.</li>
+          <li><span>582</span> – Traveled to Syria with his uncle, and a monk recognized he would become a great prophet.</li>
+          <li><span>595</span> – Marriage of Prophet Muhammad ﷺ. He married his employer Khadija when he was 25, and she was around 40.</li>
+          <li><span>610</span> – First Revelation. He ﷺ received the first verses of the Quran in the Cave of Hira.</li>
+        </ul>
+        <div id="image-container">
+          <img src="https://i.pinimg.com/736x/b8/cc/c0/b8ccc0f3030b7dcd0c76e4522c620655.jpg" alt="prophet in cave" id="image"/>
+        </div>  
 
-Indeed Prophet Muhammad’s ﷺ wondrous life left a beautiful legacy for us to emulate. Let’s cultivate in our hearts our love for the Prophet ﷺ by recalling his noble attributes and honor him by putting his actions into practice in our lives. </li>
-          </ul>
+        <h3 class="centered character-head" id="start-color">Start of the Prophetic journey</h3>
+
+        <ul>
+          <li><span>610–613</span> – For three years he ﷺ preached Islam privately, then publicly in Makkah.</li>
+          <li><span>614</span> – He ﷺ instructed Muslims to migrate to Ethiopia for safety from persecution.</li>
+          <li><span>619</span> – The year he ﷺ lost both his wife Khadija and his uncle Abu Talib.</li>
+          <li><span>622</span> – Migration to Medina, marking the start of the Muslim calendar (Hijrah).</li>
+          <li><span>624–627</span> – Fought the major battles: Badr, Uhud, and Khandaq.</li>
+          <li><span>630</span> – The Conquest of Makkah. Muslims entered the city peacefully and were pardoned by him ﷺ.</li>
+          <li><span>632</span> – The Prophet ﷺ passed away at age 63 in Medina after delivering his farewell pilgrimage.</li>
+        </ul>
       </div>  
+
       <div class="character">
-        <h3 class="character-head character-head-3">
-          <span>Short explanation of Prophet Muhammed's character:</span>
-        </h3>
-        <p class="character-1"> 
-         Prophet Muhammad was known for his strong character, characterized by honesty, integrity, and trustworthiness, earning him the title "Al-Amin" (the trustworthy) before his prophethood. He was also renowned for his compassion, humility, and perseverance. His simple lifestyle and focus on spiritual matters set an example for Muslims to follow.
-        </p>
+        <h3 class="character-head character-head-3"><span>Short explanation of Prophet Muhammed's character:</span></h3>
 
-        <p class="character-1">
-          <span><em>Honesty and Integrity:</em></span>
-    Even before receiving his divine revelation, Muhammad was known for his honesty and fairness in business and personal dealings. His reputation for trustworthiness was so strong that people entrusted him with valuable possessions, even as they rejected his message. 
-        </p>
-
-        <p class="character-1">
-          <span><em>Compassion and Humility:</em></span>
-Prophet Muhammad showed great compassion towards others, particularly the poor and marginalized. He lived a humble life, content with simplicity and rejecting extravagance.    
-        </p>
-
-        <p class="character-1">
-          <span><em>Perseverance:</em></span>
-He faced significant challenges and persecution in Mecca, yet he remained steadfast in his mission. 
-        </p>
-
-        <p class="character-1">
-          <span><em>Piety and Spiritual Focus:</em></span>
-Muhammad was deeply spiritual, often spending time in prayer and meditation, and he emphasized the importance of faith and worship.   
-        </p>
-
-        <p class="character-1">
-          <span><em>Example for Muslims:</em></span>
-His life and teachings serve as an ideal for Muslims to emulate in their daily lives, striving to embody the virtues he demonstrated. 
-        </p>
+        <p class="character-1"><span><em>Honesty and Integrity:</em></span> Known as "Al-Amin", he was trusted even by those who rejected his message.</p>
+        <p class="character-1"><span><em>Compassion and Humility:</em></span> He cared deeply for the poor, lived simply, and rejected extravagance.</p>
+        <p class="character-1"><span><em>Perseverance:</em></span> Despite persecution, he remained dedicated to his mission.</p>
+        <p class="character-1"><span><em>Piety and Spiritual Focus:</em></span> He was deeply devoted to prayer, faith, and worship.</p>
+        <p class="character-1"><span><em>Example for Muslims:</em></span> His life remains a model for Muslims in all aspects of life.</p>
       </div>  
+
       <div>
-        <figcaption class="centered character-head" id="image-caption"><strong><em>And every muslim and even non-muslim must know his biography,so read the book<a href="https://www.muslim-library.com/dl/books/English_ArRaheeq_AlMakhtum_THE_SEALED_NECTAR.pdf" id="tribute-link" target="_blank"> <span class="book">The Sealed Nectar </span></a>by Ar-Raheeq Al-Makhtum</em></strong>
+        <figcaption class="centered character-head" id="image-caption">
+          <strong><em>
+            And every Muslim and even non-Muslim must know his biography, so read the book 
+            <a href="https://www.muslim-library.com/dl/books/English_ArRaheeq_AlMakhtum_THE_SEALED_NECTAR.pdf" id="tribute-link" target="_blank">
+              <span class="book">The Sealed Nectar</span>
+            </a> by Ar-Raheeq Al-Makhtum
+          </em></strong>
           <div id="image-container">
-            <img src="https://i.pinimg.com/736x/3c/63/6f/3c636f1538a7bd44c40d5a47092de2f3.jpg" id="book-picture" id="image">
+            <img src="https://i.pinimg.com/736x/3c/63/6f/3c636f1538a7bd44c40d5a47092de2f3.jpg" id="book-picture" alt="The Sealed Nectar book cover">
           </div>
         </figcaption>
       </div>
     </main>
   </body>
 </html>
-
-
-** end of index.html **
-
-** start of styles.css **
-
-*{
-  font-family: Arial, Georgia, serif;
-}
-
-img:not(#book-picture){
-  display: block;
-  margin: auto;
-  max-width: 100%;
-  min-width:450px;
-  max-height: 500px;
-  transform: rotate(-0.6deg); 
-}
-
-#image-container{
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-}
-
-#image{
-  width: 200px;
-  height: auto;
-  max-width: 100%;
-  display: block; 
-}
-
-span{
-  font-weight: bold;
-}
-
-#description{
-  font-weight: bold;
-}
-
-a{
-  color: rgb(209, 179, 7);  
-  text-decoration: none;
-} 
-
-a:hover{
-  color: rgb(247, 231, 144);
-  cursor: pointer;
-}
-
-.character{
-  padding-bottom: 0;
-  width: 1000px;
-  line-height: 15px;
-}
-
-.character-1{
-  margin-bottom: 1px;
-  padding-bottom: 1px;
-  width: 1000px;
-  line-height: 15px;
-  text-align: left;
-  font-style: italic;
-  justify-content: start;
-}
-
-.centered{
-  text-align: center;
-}
-
-.character-head{
-  margin-top: 57px;
-  text-align: center;
-  color: rgb(100, 156, 108);
-  font-family: Arial;
-}
-
-.character-head-1{
-  margin-top: 15px;
-  text-align: center;
-}
-
-#book-picture{
-  display: block;
-  margin-top: 17px;
-  width: 200px;
-  height: 250px;
-  max-width: 100%;
-}
-
-.character-head-3{
-  text-align: left;
-}
-
-#start-color{
-  color: grey;
-  margin-top: 7px;
-  margin-bottom: 7px;
-  margin-right: 735px;
-}
-
-.legendary{
-  margin-bottom: 5px;
-}
-
-.best{
-  margin-bottom: 5px;
-}
-
-
-
-** end of styles.css **
-
